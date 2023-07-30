@@ -26,7 +26,6 @@ export default function App() {
     if (list.length === 1) {
       setList((prev) => [...prev, ...shuffle(imageList)]);
     } else {
-      console.log(list[0]);
       console.log(list.length, list[0].match(/\/([^/]+)-\d+/)?.[1]);
     }
   }, [list]);
