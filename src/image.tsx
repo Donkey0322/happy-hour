@@ -8,6 +8,8 @@ import CatherineWu5 from "./assets/Catherine Wu-5.jpg";
 import CatherineWu6 from "./assets/Catherine Wu-6.jpg";
 import DashTsai1 from "./assets/Dash Tsai-1.jpg";
 import DashTsai2 from "./assets/Dash Tsai-2.jpg";
+import DashTsai3 from "./assets/Dash Tsai-3.jpg";
+import DashTsai4 from "./assets/Dash Tsai-4.jpg";
 import LanchiLo1 from "./assets/Lanchi Lo-1.jpg";
 import LanchiLo2 from "./assets/Lanchi Lo-2.jpg";
 import LanchiLo3 from "./assets/Lanchi Lo-3.jpg";
@@ -21,14 +23,19 @@ import SophiaChang1 from "./assets/Sophia Chang-1.jpg";
 import SophiaChang2 from "./assets/Sophia Chang-2.jpg";
 import SophiaChang3 from "./assets/Sophia Chang-3.jpg";
 import SophiaChang4 from "./assets/Sophia Chang-4.jpg";
+import SophiaChang5 from "./assets/Sophia Chang-5.jpg";
 import TerasaLee1 from "./assets/Teresa Lee-1.jpg";
 import TerasaLee2 from "./assets/Teresa Lee-2.jpg";
 import TerasaLee3 from "./assets/Teresa Lee-3.jpg";
+import TerasaLee4 from "./assets/Teresa Lee-4.jpg";
 import TracyWeng1 from "./assets/Tracy Weng-1.jpg";
 import TracyWeng2 from "./assets/Tracy Weng-2.jpg";
 import TracyWeng3 from "./assets/Tracy Weng-3.jpg";
 import TracyWeng4 from "./assets/Tracy Weng-4.jpg";
 import TracyWeng5 from "./assets/Tracy Weng-5.jpg";
+import TracyWeng6 from "./assets/Tracy Weng-6.jpg";
+import WennHsu1 from "./assets/Wenn Hsu-1.jpg";
+import WennHsu2 from "./assets/Wenn Hsu-2.jpg";
 
 export const imageList = [
   BelleLee1,
@@ -41,6 +48,8 @@ export const imageList = [
   CatherineWu6,
   DashTsai1,
   DashTsai2,
+  DashTsai3,
+  DashTsai4,
   LanchiLo1,
   LanchiLo2,
   LanchiLo3,
@@ -54,12 +63,17 @@ export const imageList = [
   SophiaChang2,
   SophiaChang3,
   SophiaChang4,
+  SophiaChang5,
   TerasaLee1,
   TerasaLee2,
   TerasaLee3,
+  TerasaLee4,
   TracyWeng1,
   TracyWeng2,
   TracyWeng3,
   TracyWeng4,
   TracyWeng5,
+  TracyWeng6,
+  WennHsu1,
+  WennHsu2,
 ];
