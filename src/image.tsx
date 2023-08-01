@@ -10,6 +10,8 @@ import LanchiLo3 from "./assets/Lanchi Lo-3.jpg";
 import LanchiLo4 from "./assets/Lanchi Lo-4.jpg";
 import MeiFeng1 from "./assets/Mei Feng-1.jpg";
 import SophiaChang1 from "./assets/Sophia Chang-1.jpg";
+import SophiaChang2 from "./assets/Sophia Chang-2.jpg";
+import SophiaChang3 from "./assets/Sophia Chang-3.jpg";
 import TerasaLee1 from "./assets/Teresa Lee-1.jpg";
 import TerasaLee2 from "./assets/Teresa Lee-2.jpg";
 import TracyWeng1 from "./assets/Tracy Weng-1.jpg";
@@ -29,6 +31,8 @@ export const imageList = [
   LanchiLo4,
   MeiFeng1,
   SophiaChang1,
+  SophiaChang2,
+  SophiaChang3,
   TerasaLee1,
   TerasaLee2,
   TracyWeng1,
