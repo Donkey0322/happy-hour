@@ -18,6 +18,7 @@ const ImageContainer = styled.img`
   width: 35vmax;
   object-fit: cover;
   object-position: center;
+  user-select: none;
 `;
 
 export default function App() {
