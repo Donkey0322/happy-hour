@@ -88,6 +88,10 @@ import JinHsueh2 from "./assets/Jin Hsueh-2.jpg";
 import JinHsueh3 from "./assets/Jin Hsueh-3.jpg";
 import JinHsueh4 from "./assets/Jin Hsueh-4.jpg";
 import JohnyHsieh1 from "./assets/Johny Hsieh-1.jpg";
+import JosephHsieh1 from "./assets/Joseph Hsieh-1.jpg";
+import JosephHsieh2 from "./assets/Joseph Hsieh-2.jpg";
+import JosephHsieh3 from "./assets/Joseph Hsieh-3.jpg";
+import JosephHsieh4 from "./assets/Joseph Hsieh-4.jpg";
 import Joseph1 from "./assets/Joseph-1.jpg";
 import Joseph2 from "./assets/Joseph-2.jpg";
 import Joseph3 from "./assets/Joseph-3.jpg";
@@ -181,11 +185,37 @@ import WillySu1 from "./assets/Willy Su-1.jpg";
 import Xander1 from "./assets/Xander-1.jpg";
 import Xander2 from "./assets/Xander-2.jpg";
 import YonezuKenshi from "./assets/Yonezu Kenshi (米津玄師)-1.jpg";
+import 吳亦凡 from "./assets/吳亦凡-1.jpg";
+import 周杰倫1 from "./assets/周杰倫-1.jpg";
+import 周杰倫2 from "./assets/周杰倫-2.jpg";
+import 小S from "./assets/小S-1.jpg";
+import 張婷婷 from "./assets/張婷婷-1.jpg";
 import 李奧納多1 from "./assets/李奧納多-1.jpg";
+import 林志玲 from "./assets/林志玲-1.jpg";
+import 浩子 from "./assets/浩子-1.jpg";
+import 潘瑋柏 from "./assets/潘瑋柏-1.jpg";
+import 章魚哥 from "./assets/章魚哥 Squidward-1.jpg";
+import 羅志祥 from "./assets/羅志祥-1.jpg";
 import 胖虎1 from "./assets/胖虎-1.jpg";
+import 舞棍阿杯 from "./assets/舞棍阿杯-1.jpg";
 import 蝙蝠俠1 from "./assets/蝙蝠俠-1.jpg";
 
 export const imageList = [
+  JosephHsieh1,
+  JosephHsieh2,
+  JosephHsieh3,
+  JosephHsieh4,
+  羅志祥,
+  小S,
+  吳亦凡,
+  周杰倫1,
+  周杰倫2,
+  林志玲,
+  浩子,
+  張婷婷,
+  章魚哥,
+  舞棍阿杯,
+  潘瑋柏,
   JunJiHyun,
   SongHyeGyo1,
   TongShen,
@@ -378,6 +408,6 @@ export const demoList = [
   JinHsueh1,
   LanchiLo1,
   CatherineWu1,
-  AnnChung1,
   ChouTzuYu1,
+  MiaHuang1,
 ];
