@@ -1,7 +1,7 @@
 import { shuffle } from "lodash";
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { imageList } from "./image";
+import { demoList, imageList } from "./image";
 
 const Background = styled.div`
   background-color: black;
@@ -22,19 +22,41 @@ const ImageContainer = styled.img`
 `;
 
 export default function App() {
+  const [mode, setMode] = useState("game");
   const [list, setList] = useState(shuffle(imageList));
+  const [show, setShow] = useState(true);
 
   useEffect(() => {
     if (list.length === 1) {
-      setList((prev) => [...prev, ...shuffle(imageList)]);
+      setList((prev) => [
+        ...prev,
+        ...(mode === "game" ? shuffle(imageList) : demoList),
+      ]);
     } else {
       console.log(list.length, list[0].match(/\/([^/]+)-\d+/)?.[1]);
     }
-  }, [list]);
+  }, [list, mode]);
 
   useEffect(() => {
     const listener = (event: KeyboardEvent) => {
-      if (event.code === "ArrowRight") setList((prev) => prev.slice(1));
+      switch (event.code) {
+        case "ArrowRight":
+          setList((prev) => prev.slice(1));
+          break;
+        case "KeyD":
+          setList(demoList);
+          setMode("demo");
+          break;
+        case "KeyG":
+          setList(shuffle(imageList));
+          setMode("game");
+          break;
+        case "Space":
+          setShow((prev) => !prev);
+          break;
+        default:
+          break;
+      }
     };
     document.addEventListener("keydown", listener);
     return () => {
@@ -44,7 +66,7 @@ export default function App() {
 
   return (
     <Background onClick={() => setList((prev) => prev.slice(1))}>
-      <ImageContainer src={list[0]} alt="" />
+      {show && <ImageContainer src={list[0]} alt="" />}
     </Background>
   );
 }
